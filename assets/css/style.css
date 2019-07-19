@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+
+body {
+    background-color: ;
+    font-family: "Exo", sans-serif;
+}
+
+.logo {
+    background: url("../images/hurling.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    Min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+/*--------------------------------------------------navbar */
+
+.fixed-top {
+    position: absolute;
+
+}
+
+/*--------------------------------------------------navbar */
+
+/*--------------------------------------------------about me */
+
+.about-me {
+    background-color: #FF0000;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+
+/*--------------------------------------------------about me */
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+.gallery {
+
+   
+    display: table-row;
+}
+
+.page-header {
+    text-align: center;
+    background-color: #FF0000;
+    margin-bottom: -16px;
+}
