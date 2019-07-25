@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
 body {
-    background-color: ;
+    background-color: #073e79 ;
     font-family: "Exo", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
-    background: url("../images/hurling.jpg");
+    background: url("../images/hurling-ball-close-up.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,11 +31,11 @@ body {
 /*--------------------------------------------------about me */
 
 .about-me {
-    background-color: #FF0000;
+    background-color:  #073e79;
     text-align: center;
     margin: 0;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 15px;
+    color: cornsilk ;
 
 }
 
@@ -41,24 +43,52 @@ body {
 
 /*--------------------------------------------------about me */
 
-.container-fluid {
-    width: 100%;
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
-
-}
 
 
-.gallery {
 
-   
-    display: table-row;
-}
 
 .page-header {
     text-align: center;
-    background-color: #FF0000;
+    background-color:  #073e79;
     margin-bottom: -16px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px 4px;
+    justify-content: center;
+}
+
+footer {
+    background-color: #073e79;
+    color: #fff8dc;
+    margin: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding: 39px 40px;
+}
+
+.img-fluid2 {
+    max-width: 100%;
+    height: auto;
+    padding: 39px 40px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
