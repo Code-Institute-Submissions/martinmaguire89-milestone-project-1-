@@ -35,8 +35,10 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4, 
+h5{
     font-weight: 400;
+    color: #fff8dc;
 }
 
 /*--------------------------------------------------navbar */
@@ -65,6 +67,7 @@ h4 {
     margin-bottom: -16px;
     color: #fff8dc;
     justify-content: center;
+    margin-top: 14vh;
 }
 
 
@@ -77,6 +80,7 @@ h4 {
     background-color: #073e79;
     margin-bottom: -16px;
     color: #fff8dc;
+    margin-top: 14vh;
 
 }
 
@@ -110,6 +114,7 @@ h4 {
     margin-bottom: -16px;
     color: #fff8dc;
     justify-content: center;
+    margin-top: 14vh;
 }
 
 .iframe-container {
@@ -134,7 +139,6 @@ h4 {
 
 /*--------------------------------------------------contact us*/
 
-h3,
 h5 {
     color: #fff8dc;
 }
